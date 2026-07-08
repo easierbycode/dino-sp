@@ -10,7 +10,7 @@
   "dependencies": {
     "phaser": "^4.0.0",
     "svelte": "^5.0.0",
-    "svelte-phaser": "file:../svelte-phaser"
+    "svelte-phaser": "file:./vendor/svelte-phaser"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^5.0.0",

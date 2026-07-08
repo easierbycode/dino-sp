@@ -14,7 +14,7 @@
     "npm:pg": "npm:pg@^8.11.0"
   },
   "nodeModulesDir": "auto",
-  "exclude": ["client/", "dist/", "node_modules/", "vite.config.ts", "index.html"],
+  "exclude": ["client/", "dist/", "node_modules/", "vendor/", "vite.config.ts", "index.html"],
   "deploy": {
     "project": "dino-sp",
     "entrypoint": "src/main.ts",
