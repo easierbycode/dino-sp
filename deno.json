@@ -1,0 +1,24 @@
+{
+  "name": "@easierbycode/dino-sp",
+  "version": "1.0.0",
+  "exports": "./src/main.ts",
+  "tasks": {
+    "dev": "deno run -A npm:vite dev",
+    "dev:server": "deno run --allow-net --allow-read --allow-env --env-file --watch src/main.ts",
+    "build": "deno run -A npm:vite build",
+    "start": "deno run --allow-net --allow-read --allow-env --env-file src/main.ts",
+    "preview": "deno task build && deno task start"
+  },
+  "imports": {
+    "@oak/oak": "jsr:@oak/oak@17",
+    "npm:pg": "npm:pg@^8.11.0"
+  },
+  "nodeModulesDir": "auto",
+  "exclude": ["client/", "dist/", "node_modules/", "vite.config.ts", "index.html"],
+  "deploy": {
+    "project": "dino-sp",
+    "entrypoint": "src/main.ts",
+    "include": ["src/", "dist/", "deno.json", "deno.lock"],
+    "exclude": ["node_modules/"]
+  }
+}

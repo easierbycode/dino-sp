@@ -1,0 +1,19 @@
+{
+  "name": "dino-sp",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "phaser": "^4.0.0",
+    "svelte": "^5.0.0",
+    "svelte-phaser": "file:../svelte-phaser"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.0.0",
+    "vite": "^6.0.0"
+  }
+}
