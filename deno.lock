@@ -12,6 +12,7 @@
     "jsr:@std/internal@^1.0.14": "1.0.14",
     "jsr:@std/media-types@1": "1.1.0",
     "jsr:@std/path@1": "1.1.6",
+    "npm:5velte-ph4ser@1": "1.0.0_phaser@4.2.0_svelte@5.56.4",
     "npm:@sveltejs/vite-plugin-svelte@5": "5.1.1_svelte@5.56.4_vite@6.4.3",
     "npm:path-to-regexp@^6.3.0": "6.3.0",
     "npm:pg@^8.11.0": "8.22.0",
@@ -76,6 +77,13 @@
     }
   },
   "npm": {
+    "5velte-ph4ser@1.0.0_phaser@4.2.0_svelte@5.56.4": {
+      "integrity": "sha512-EktfL/F3HcNci+x/QH3JF9Lnvx8LMfA4rLTuerMJT4ZzF63uzPrZ1UGMJDToEsk5SYpFMVb30R2axcVgzR3STA==",
+      "dependencies": [
+        "phaser",
+        "svelte"
+      ]
+    },
     "@esbuild/aix-ppc64@0.25.12": {
       "integrity": "sha512-Hhmwd6CInZ3dwpuGTF8fJG6yoWmsToE+vYgD4nytZVxcu1ulHpUQRAB1UJ8+N1Am3Mz4+xOByoQoSZf4D+CpkA==",
       "os": ["aix"],
@@ -693,6 +701,7 @@
     ],
     "packageJson": {
       "dependencies": [
+        "npm:5velte-ph4ser@1",
         "npm:@sveltejs/vite-plugin-svelte@5",
         "npm:phaser@4",
         "npm:svelte@5",

@@ -4,8 +4,8 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [svelte()],
   resolve: {
-    // svelte-phaser is consumed from source (file: dependency) — make sure it
-    // shares this app's phaser and svelte instances
+    // 5velte-ph4ser ships raw Svelte/TS source — make sure it shares this
+    // app's phaser and svelte instances
     dedupe: ['phaser', 'svelte'],
   },
   server: {

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Container, Rectangle } from 'svelte-phaser'
+  import { Container, Rectangle } from '5velte-ph4ser'
   import type { ObstacleData } from '../lib/game.svelte'
 
   let { obstacle }: { obstacle: ObstacleData } = $props()

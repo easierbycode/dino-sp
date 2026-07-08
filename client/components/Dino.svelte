@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Container, Rectangle } from 'svelte-phaser'
+  import { Container, Rectangle } from '5velte-ph4ser'
   import { darkenColor, hexToNumber } from '../lib/colors'
   import type { DinoGame } from '../lib/game.svelte'
   import { player } from '../lib/settings.svelte'

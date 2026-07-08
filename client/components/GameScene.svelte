@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { onGameEvent, onInputEvent, Rectangle, Text } from 'svelte-phaser'
+  import { onGameEvent, onInputEvent, Rectangle, Text } from '5velte-ph4ser'
   import { DinoGame } from '../lib/game.svelte'
   import { gamepad } from '../lib/gamepad.svelte'
   import Dino from './Dino.svelte'

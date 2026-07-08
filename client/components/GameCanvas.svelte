@@ -1,6 +1,6 @@
 <script lang="ts">
   import Phaser from 'phaser'
-  import { Game, Scene } from 'svelte-phaser'
+  import { Game, Scene } from '5velte-ph4ser'
   import { DinoGame } from '../lib/game.svelte'
   import { gamepad } from '../lib/gamepad.svelte'
   import { player, THEMES } from '../lib/settings.svelte'
