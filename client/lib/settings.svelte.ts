@@ -14,6 +14,23 @@ export const DIFFICULTY_MULTIPLIERS: Record<string, number> = {
   hard: 1.3,
 }
 
+/** Dock/OSD swatches for the dino, per the fullscreen redesign. */
+export const DINO_COLORS = [
+  '#4CAF50',
+  '#66c2ff',
+  '#FF5722',
+  '#F6FF4A',
+  '#9C27B0',
+]
+
+/**
+ * The difficulty slider stores its multiplier ("1.2") directly in
+ * difficultyPreference; the legacy easy/normal/hard presets still resolve.
+ */
+export function difficultyMultiplier(pref: string): number {
+  return DIFFICULTY_MULTIPLIERS[pref] ?? (Number.parseFloat(pref) || 1.0)
+}
+
 const DEFAULT_SETTINGS: GameSettings = {
   dinoColor: '#4CAF50',
   backgroundTheme: 'desert',

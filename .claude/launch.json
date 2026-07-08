@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dino-sp",
+      "runtimeExecutable": "deno",
+      "runtimeArgs": ["task", "start"],
+      "port": 8004
+    },
+    {
+      "name": "dino-dev",
+      "runtimeExecutable": "deno",
+      "runtimeArgs": ["task", "dev"],
+      "port": 5173
+    }
+  ]
+}
